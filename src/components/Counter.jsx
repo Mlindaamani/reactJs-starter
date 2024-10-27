@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const Counter = () => {
+export const Counter = () => {
   const [counter, setCounter] = useState(() => {
     return JSON.parse(localStorage.getItem("COUNTER")) || 0;
   });
@@ -48,4 +48,3 @@ const Counter = () => {
   );
 };
 
-export default Counter;

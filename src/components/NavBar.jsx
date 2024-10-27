@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const NavBar = () => {
+export const NavBar = () => {
   return (
     <nav
       className="navbar navbar-expand-lg sticky-top p-4 shadow"
@@ -50,4 +50,4 @@ const NavBar = () => {
     </nav>
   );
 };
-export default NavBar;
+

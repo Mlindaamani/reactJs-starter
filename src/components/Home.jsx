@@ -1,6 +1,8 @@
-import Card from "./Card";
 
-function Home() {
+
+import { Card } from "./Card";
+
+export const Home = () => {
   const products = [
     {
       id: 1,
@@ -56,4 +58,3 @@ function Home() {
   );
 }
 
-export default Home;

@@ -28,7 +28,7 @@ function reducer(state, action) {
   }
 }
 
-const ReducerCounter = () => {
+export const ReducerCounter = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
 
   function handleIncrement() {
@@ -78,4 +78,4 @@ const ReducerCounter = () => {
     </div>
   );
 };
-export default ReducerCounter;
+

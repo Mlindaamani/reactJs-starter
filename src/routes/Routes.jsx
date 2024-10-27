@@ -1,15 +1,13 @@
-import { Routes, Route } from "react-router-dom";
-import {
-  Home,
-  SignupForm,
-  ListGroup,
-  ReducerCounter,
-  Card,
-  Counter,
-  NotFound,
-} from "../components";
 
-const AppRoutes = () => (
+import { Home } from "../components/Home";
+import { Card } from "../components/Card";
+import { Counter } from "../components/Counter";
+import { NotFound } from "../components/NotFound";
+import { ListGroup } from "../components/ListGroup";
+import { SignupForm } from "../components/SignupForm";
+import { ReducerCounter } from "../components/ReducerCounter";
+import { Routes , Route} from "react-router-dom";
+export const AppRoutes = () => (
   <Routes>
     <Route path="/" element={<Home />} />
     <Route path="/signup" element={<SignupForm />} />
@@ -21,4 +19,4 @@ const AppRoutes = () => (
   </Routes>
 );
 
-export default AppRoutes;
+ 

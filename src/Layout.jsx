@@ -1,6 +1,7 @@
-import { NavBar} from "./components";
 
-const Layout = ({ children }) => {
+import { NavBar } from "./components/NavBar";
+
+export const Layout = ({ children }) => {
   return (
     <div className="container-fluid">
       <NavBar />
@@ -13,4 +14,4 @@ const Layout = ({ children }) => {
     </div>
   );
 };
-export default Layout;
+

@@ -1,9 +1,9 @@
 import { StrictMode } from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import AppRoutes from "./routes/Routes.jsx";
-import Layout from "./Layout.jsx";
+import { AppRoutes } from "./routes/Routes.jsx";
+import { Layout } from "./Layout.jsx";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
